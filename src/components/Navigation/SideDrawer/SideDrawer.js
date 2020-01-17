@@ -12,6 +12,7 @@ const SideDrawer = props => {
 
       <nav>
         <NavigationItems />
+        
       </nav>
     </div>
   );
