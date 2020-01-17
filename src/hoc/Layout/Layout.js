@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Auxilary from "../../hoc/Auxilary";
+import Auxilary from "../Auxilary/Auxilary";
 import classes from "./Layout.module.css";
-import Toolbar from "../Navigation/Toolbar/Toolbar";
-import SideDrawer from "../Navigation/SideDrawer/SideDrawer";
+
+import SideDrawer from "../../components/Navigation/SideDrawer/SideDrawer";
+import Toolbar from "../../components/Navigation/Toolbar/Toolbar";
 
 class Layout extends Component {
   state = {
@@ -16,7 +17,7 @@ class Layout extends Component {
   sideDrawerToggleHandler = () => {
     this.setState(prevState => {
       return { showSideDrawer: !prevState.showSideDrawer };
-    });
+    }); 
   };
 
   render() {

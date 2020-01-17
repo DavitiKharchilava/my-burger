@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../Logo/Logo";
 import NavigationItems from "../NavigationItems/NavigationItems";
 import classes from "./SideDrawer.module.css";
-import Auxilary from "../../../hoc/Auxilary";
+import Auxilary from "../../../hoc/Auxilary/Auxilary";
 import Backdrop from "../../UI/Backdrop/Backdrop";
 
 const SideDrawer = props => {
@@ -24,6 +24,6 @@ const SideDrawer = props => {
       </div>
     </Auxilary>
   );
-};
+}; 
 
 export default SideDrawer;
